@@ -1,0 +1,41 @@
+body {
+    width: 65%;
+    margin: 0 auto;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+li {
+    margin: 2px 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color:inherit;
+ }
+
+ a:visited {
+     color: black;
+ }
+
+.images {
+   text-align: center;
+}
+
+img {
+    width: 50px;
+    margin: 0 35px;
+}
